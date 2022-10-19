@@ -4,33 +4,28 @@
     box-sizing: border-box;
 }
 
-.menuinicio {
-    background-color: #8b7e7eaf;
-    font-family: Verdana;
-  }
+.header{
+  background-color: #8b7e7eaf ;
+}
+.header img{
+  width: 400px;
+  height: 200px;
+}
+.nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-end;
+  font-size: 20px;
+  font-family: monospace;
+  list-style: none; 
+  margin-bottom: 0;  
+}
 
-
-  .menuinicio ul {
-    list-style: none;
-    margin: 0%;
-    padding: 0%;
-
-  }
-
-  .menuinicio ul li {
-    display: inline-block;
-  }
-
-  .menuinicio ul li a {
-    color: white;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-  }
-
-  .menuinicio ul li a:hover {
-    background-color: #245685;
-  }
+.navBar li a{
+  text-decoration: none;
+  color: white;
+  padding: 0px;
+}
 
 
   body {
@@ -38,7 +33,7 @@
     background-repeat:no-repeat ;
   }
 
-  logofirma{
+  .fotologo{
     display: flex;
     justify-content: center;
   }
