@@ -1,0 +1,147 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menuinicio {
+    background-color: #8b7e7eaf;
+    font-family: Verdana;
+  }
+
+
+  #menuinicio ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+  }
+
+  #menuinicio ul li {
+    display: inline-block;
+  }
+
+  #menuinicio ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  #menuinicio ul li a:hover {
+    background-color: #245685;
+  }
+
+
+  body {
+    background-image: url("../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg");
+    background-repeat:no-repeat ;
+  }
+
+  logofirma{
+    display: flex;
+    justify-content: center;
+  }
+
+p{
+  color:aliceblue ;
+}
+.botoncontacto{
+    color: #030608;
+    background:transparent;
+    border: 2px solid #8b7e7eaf;
+    border-radius: 6px;
+    font-family: Verdana;
+    
+    
+}
+.botoncontacto {
+      
+    border: none;
+    color: white;
+    padding: 4px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.botoncontacto {
+      background-color: #852f24 ; 
+      background: transparent;
+      color: rgb(255, 255, 255); 
+      border: 3.5px solid #8b7e7eaf;
+}
+.botoncontacto:hover {
+    background-color: #8b7e7eaf;
+    color: white;
+} 
+
+form{
+  width: 450px;
+  margin:auto;
+  background-color: #ebf1f6;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+h2{
+color: rgb(0, 0, 0);
+text-align: center;
+margin: 0;
+font-size: 25px;
+margin-bottom: 10px;
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.Fotos{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+.img1{
+  margin-right: 20px;
+}
+.img2{
+  margin-right: 20px;
+}
+.img3{
+margin-right: 200px;
+}
+.img4{
+  margin-right: 20px;
+}
+.img5{
+  margin-right: 20px;
+}
+
+
+.CentrarTexto{
+  text-align: center;
+}
+
+  footer {
+    background-color: #8b7e7eaf;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    color: rgb(226, 233, 240);
+    font-family: Verdana;
+  }
