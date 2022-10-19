@@ -4,31 +4,31 @@
     box-sizing: border-box;
 }
 
-#menuinicio {
+.menuinicio {
     background-color: #8b7e7eaf;
     font-family: Verdana;
   }
 
 
-  #menuinicio ul {
+  .menuinicio ul {
     list-style: none;
     margin: 0%;
     padding: 0%;
 
   }
 
-  #menuinicio ul li {
+  .menuinicio ul li {
     display: inline-block;
   }
 
-  #menuinicio ul li a {
+  .menuinicio ul li a {
     color: white;
     display: block;
     padding: 10px;
     text-decoration: none;
   }
 
-  #menuinicio ul li a:hover {
+  .menuinicio ul li a:hover {
     background-color: #245685;
   }
 
