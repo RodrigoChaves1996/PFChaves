@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-.header{
-  background-color: #8b7e7eaf ;
-}
 .header img{
-  width: 400px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
+  margin: top 20px;
+  margin-bottom: 5px;
+  margin-left: 0%;
+  margin-right: 0%;
 }
-.nav ul{
+.navBar ul{
   display: flex;
   justify-content: space-around;
   align-items:flex-end;
@@ -36,8 +37,14 @@
   .fotologo{
     display: flex;
     justify-content: center;
+    height: 1px;
+    width: 100px;
   }
 
+  .logologo{
+    display: flex;
+    justify-content: center;
+  }
 p{
   color:aliceblue ;
 }
@@ -62,6 +69,13 @@ p{
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    font-size: 20px;
+    font-family: monospace;
+    list-style: none; 
+    margin-bottom: 20px; 
 }
 .botoncontacto {
       background-color: #852f24 ; 
@@ -141,3 +155,9 @@ margin-right: 200px;
     font-family: Verdana;
   }
   
+  .textoPrincipal{
+    text-align:center;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
