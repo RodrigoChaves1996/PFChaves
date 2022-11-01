@@ -168,6 +168,9 @@ margin-right: 200px;
   max-height: 650px;
 }
 
+.footer{
+  margin-top: auto;
+}
 
   @media (max-width:768px){
     .navBar{
