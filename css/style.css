@@ -32,11 +32,6 @@
   body {
     background-image: url("../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg");
     background-repeat:no-repeat ;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-wrap: wrap;
   }
 
   .fotologo{
@@ -159,8 +154,6 @@ margin-right: 200px;
     width: 100%;
     color: rgb(226, 233, 240);
     font-family: Verdana;
-    align-self: flex-end
-
   }
   
   .textoPrincipal{
@@ -174,6 +167,7 @@ margin-right: 200px;
 .carousel-item{
   max-height: 650px;
 }
+
 
   @media (max-width:768px){
     .navBar{
