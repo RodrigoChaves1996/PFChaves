@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html{
+  min-height: 100%;
+  position: relative;
+}
+
 .header img{
   width: 150px;
   height: 150px;
@@ -152,14 +157,7 @@ margin-right: 200px;
   text-align: center;
 }
 
-  footer {
-    background-color: #8b7e7eaf;
-    position:relative;
-    bottom: 0%;
-    width: 100%;
-    color: rgb(226, 233, 240);
-    font-family: Verdana;
-  }
+
   
   .textoPrincipal{
     text-align:center;
@@ -171,6 +169,16 @@ margin-right: 200px;
 
 .carousel-item{
   max-height: 650px;
+}
+
+footer {
+  background-color: #8b7e7eaf;
+  position:relative;
+  bottom: 0%;
+  width: 100%;
+  height: 80px;
+  color: rgb(226, 233, 240);
+  font-family: Verdana;
 }
 
 
