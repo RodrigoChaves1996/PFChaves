@@ -33,18 +33,28 @@ html{
   padding: 0px;
 }
 
+.BoxLogo{
+  display: inline-block;
+}
+
+.BoxLista{
+  display: inline-block;
+  width: 86%;
+}
+
 
   body {
     background-image: url("../images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg");
     background-repeat:no-repeat ;
   }
 
-  .fotologo{
+  /* .fotologo{
     display: flex;
     justify-content: center;
     height: 1px;
     width: 100px;
   }
+*/
 
   .logologo{
     display: flex;
@@ -166,10 +176,18 @@ margin-right: 200px;
     margin-bottom: 50px;
   }
 
+.bottomTienda{
+  margin-bottom: 150px;
+}
 
 .carousel-item{
   max-height: 470px;
   width: 100px;
+}
+
+.imgGaleria{
+  height: 450px;
+  width: 40%;
 }
 
 footer {
@@ -182,6 +200,9 @@ footer {
   font-family: Verdana;
 }
 
+.footerContacto{
+  width: 100% !important;
+}
 
   @media (max-width:768px){
     .navBar{
@@ -208,3 +229,4 @@ footer {
         border-radius: 10%;
     }
   }
+  
