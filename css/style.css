@@ -55,7 +55,8 @@ p{
     border: 2px solid #8b7e7eaf;
     border-radius: 6px;
     font-family: Verdana;
-    
+    width: 200px;
+    height: auto;
     
 }
 .botoncontacto {
@@ -65,7 +66,7 @@ p{
     padding: 4px 30px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     text-decoration: none;
@@ -73,10 +74,9 @@ p{
     display: flex;
     justify-content: space-around;
     align-items:flex-end;
-    font-size: 20px;
     font-family: monospace;
     list-style: none; 
-    margin-bottom: 20px; 
+    margin-bottom: 100px; 
 }
 .botoncontacto {
       background-color: #852f24 ; 
@@ -88,7 +88,12 @@ p{
     background-color: #8b7e7eaf;
     color: white;
 } 
-
+.botonContactoMedio{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
 form{
   width: 450px;
   margin:auto;
@@ -149,7 +154,7 @@ margin-right: 200px;
 
   footer {
     background-color: #8b7e7eaf;
-    position: absolute;
+    position:relative;
     bottom: 0%;
     width: 100%;
     color: rgb(226, 233, 240);
