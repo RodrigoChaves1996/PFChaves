@@ -74,7 +74,7 @@ p{
     height: auto;
     
 }
-.botoncontacto {
+.botoncontacto{
       
     border: none;
     color: white;
@@ -93,7 +93,7 @@ p{
     list-style: none; 
     margin-bottom: 100px; 
 }
-.botoncontacto {
+.botoncontacto{
       background-color: #852f24 ; 
       background: transparent;
       color: rgb(255, 255, 255); 
