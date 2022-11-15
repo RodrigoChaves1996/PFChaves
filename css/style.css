@@ -204,6 +204,18 @@ footer {
   width: 100% !important;
 }
 
+.BioFoto{
+  display: flex;
+  margin-top: 100px;
+  padding: 25px
+}
+
+.TextoBio{
+  padding-left: 25px;
+  text-align: justify;
+  line-height: 2;
+}
+
   @media (max-width:768px){
     .navBar{
       width: 100%;
