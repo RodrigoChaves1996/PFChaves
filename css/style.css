@@ -211,7 +211,7 @@ margin-right: 200px;
   width: 40%;
 }
 
-footer {
+/**footer {
   background-color: #8b7e7eaf;
   position:absolute;
   bottom: 0%;
@@ -223,6 +223,42 @@ footer {
 
 .footerContacto{
   width: 100% !important;
+}**/
+
+footer{
+  grid-area: footer;
+  width: 100%;
+  background-color: #a88c8caf;
+  font-size: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: none;
+}
+
+.footerContacto{
+margin: 15px;
+}
+
+.footerRedesSociales{
+margin: 15px;
+}
+
+.footerContacto ul li, .footerRedesSociales ul li{
+  list-style:none;
+}
+
+.footerContacto img, .footerRedesSociales img{
+  width: 22px;
+  height: 22px;
+  opacity: 0.6;
+}
+
+.LogoFooter img{
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+  margin-bottom: 10px;
 }
 
 .BioFoto{
@@ -392,7 +428,19 @@ margin-right: 20px;
   h1{
     font-size: 25px
   }
-
+  .footerContacto img, .footerRedesSociales img{
+    width: 15px;
+    height: 15px;
+  }
+  .LogoFooter img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0px;
+  }
+.footerRedesSociales img{
+width: 15px;
+height: 15px;
+}
   }
 
   @media (max-width:576px){
@@ -450,6 +498,20 @@ h1{
 h2{
   font-size: 15px;
 }
-
+.footerContacto img, .footerRedesSociales img {
+  width: 12px;
+  height: 12px;
 }
+.LogoFooter img{
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.footerRedesSociales img{
+  width: 12px;
+  height: 12px;
+}
+}
+
   
