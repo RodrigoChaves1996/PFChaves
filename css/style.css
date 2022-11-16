@@ -234,6 +234,29 @@ h2{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+h5{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-group{
+margin-top: 20px;
+margin-bottom: 100px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.card-text{
+  color: #030608;
+}
+
+
+
 .productosMujeres{
   display: flex;
   flex-flow: row wrap;
