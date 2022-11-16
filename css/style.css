@@ -392,7 +392,7 @@ margin-right: 20px;
   h1{
     font-size: 25px
   }
-  
+
   }
 
   @media (max-width:576px){
@@ -406,5 +406,50 @@ margin-right: 20px;
         justify-items: center;
         border-radius: 10%;
     }
-  }
+    .img{ width: 45px;
+      height: 45px;
+}
+.cardMujeres img, .cardNiñas img{
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  cursor: pointer;
+}
+.cardMujeres img:hover, .cardNiñas img:hover{
+  transform: scale(1.2);
+}
+.cardMujeres div button, .cardNiñas div button{
+  width: 60px;
+  height: 22px;
+  background:rgb(252, 241, 241);
+  border: none;
+  color:rgba(19, 18, 18, 0.736);
+  margin-top: 10px;
+  font-size: 10px;
+}
+.cardNiñas img{
+  width: 200px;
+  height: 200px;
+  cursor:pointer
+}
+.cardNiñas img:hover{
+  transform: scale(1.2);
+}
+.cardNiñas div button{
+  width: 60px;
+  height: 22px;
+  background:rgb(252, 241, 241);
+  border: none;
+  color:rgba(19, 18, 18, 0.736);
+  margin-top: 10px;
+  font-size: 10px;
+}
+h1{
+  font-size: 18px
+}
+h2{
+  font-size: 15px;
+}
+
+}
   
