@@ -1,0 +1,21 @@
+.BioFoto {
+    display: flex;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+.TextoBio {
+    padding-left: 25px;
+    text-align: justify;
+    line-height: 2;
+}
+
+h1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ebf1f6;
+}

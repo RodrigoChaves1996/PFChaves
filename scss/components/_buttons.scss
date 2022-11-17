@@ -1,0 +1,45 @@
+.botoncontacto {
+    color: #030608;
+    background: transparent;
+    border: 2px solid #8b7e7eaf;
+    border-radius: 6px;
+    font-family: Verdana;
+    width: 200px;
+    height: auto;
+    border: none;
+    color: white;
+    padding: 4px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: monospace;
+    list-style: none;
+    margin-bottom: 100px;
+    background-color: #852f24;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 3.5px solid #8b7e7eaf;
+
+    &:hover {
+        background-color: #8b7e7eaf;
+        color: white;
+    }
+}
+
+.botonContactoMedio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomTienda {
+    margin-bottom: 150px;
+}

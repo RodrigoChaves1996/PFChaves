@@ -8,6 +8,59 @@ html {
   min-height: 100%;
   position: relative; }
 
+body {
+  background-image: url("../images/FondoNegro.jpg");
+  background-repeat: no-repeat; }
+
+.carousel-item {
+  max-height: 470px;
+  width: 100px; }
+
+.imgGaleria {
+  height: 450px;
+  width: 40%; }
+
+.botoncontacto {
+  color: #030608;
+  background: transparent;
+  border: 2px solid #8b7e7eaf;
+  border-radius: 6px;
+  font-family: Verdana;
+  width: 200px;
+  height: auto;
+  border: none;
+  color: white;
+  padding: 4px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-family: monospace;
+  list-style: none;
+  margin-bottom: 100px;
+  background-color: #852f24;
+  background: transparent;
+  color: white;
+  border: 3.5px solid #8b7e7eaf; }
+  .botoncontacto:hover {
+    background-color: #8b7e7eaf;
+    color: white; }
+
+.botonContactoMedio {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.bottomTienda {
+  margin-bottom: 150px; }
+
 .header img {
   width: 150px;
   height: 150px;
@@ -58,10 +111,6 @@ html {
   display: inline-block;
   width: 86%; }
 
-body {
-  background-image: url("../images/FondoNegro.jpg");
-  background-repeat: no-repeat; }
-
 .fotologo {
   display: flex;
   justify-content: center;
@@ -76,43 +125,14 @@ body {
 p {
   color: aliceblue; }
 
-.botoncontacto {
-  color: #030608;
-  background: transparent;
-  border: 2px solid #8b7e7eaf;
-  border-radius: 6px;
-  font-family: Verdana;
-  width: 200px;
-  height: auto;
-  border: none;
-  color: white;
-  padding: 4px 30px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  font-family: monospace;
-  list-style: none;
-  margin-bottom: 100px;
-  background-color: #852f24;
-  background: transparent;
-  color: white;
-  border: 3.5px solid #8b7e7eaf; }
-  .botoncontacto:hover {
-    background-color: #8b7e7eaf;
-    color: white; }
+.CentrarTexto {
+  text-align: center; }
 
-.botonContactoMedio {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+.textoPrincipal {
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 form {
   width: 450px;
@@ -122,6 +142,25 @@ form {
   box-sizing: border-box;
   margin-top: 20px;
   border-radius: 7px; }
+
+.BioFoto {
+  display: flex;
+  margin-top: 100px;
+  padding: 25px; }
+
+.TextoBio {
+  padding-left: 25px;
+  text-align: justify;
+  line-height: 2; }
+
+h1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ebf1f6; }
 
 h2 {
   color: #dbd7d7;
@@ -162,85 +201,6 @@ textarea {
 
 .img4, .img5 {
   margin-right: 20px; }
-
-.CentrarTexto {
-  text-align: center; }
-
-.textoPrincipal {
-  text-align: center;
-  margin: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-.bottomTienda {
-  margin-bottom: 150px; }
-
-.carousel-item {
-  max-height: 470px;
-  width: 100px; }
-
-.imgGaleria {
-  height: 450px;
-  width: 40%; }
-
-/**footer {
-background-color: #8b7e7eaf;
-position:absolute;
-bottom: 0%;
-width: 100%;
-height: 80px;
-color: rgb(226, 233, 240);
-font-family: monospace;
-}
-
-.footerContacto{
-width: 100% !important;
-}**/
-footer {
-  grid-area: footer;
-  width: 100%;
-  background-color: #a88c8caf;
-  font-size: 15px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: none; }
-
-.footerContacto, .footerRedesSociales {
-  margin: 15px; }
-
-.footerContacto ul li, .footerRedesSociales ul li {
-  list-style: none; }
-
-.footerContacto img, .footerRedesSociales img {
-  width: 22px;
-  height: 22px;
-  opacity: 0.6; }
-
-.LogoFooter img {
-  width: 100px;
-  height: 100px;
-  border-radius: 80px;
-  margin-bottom: 10px; }
-
-.BioFoto {
-  display: flex;
-  margin-top: 100px;
-  padding: 25px; }
-
-.TextoBio {
-  padding-left: 25px;
-  text-align: justify;
-  line-height: 2; }
-
-h1 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #ebf1f6; }
 
 h2, h5 {
   display: flex;
@@ -304,79 +264,32 @@ h2, h5 {
 .cardMujeres div button:hover, .cardNiñas div button:hover {
   transform: translate(2px, 2px); }
 
-@media (max-width: 768px) {
-  .navBar {
-    width: 100%;
-    height: 50%;
-    padding: 40px;
-    display: grid;
-    font-size: 18px;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    border-radius: 10%; }
-  .img {
-    width: 60px;
-    height: 60px; }
-  .cardMujeres img, .cardNiñas img {
-    width: 200px;
-    height: 200px;
-    justify-content: center;
-    cursor: pointer; }
-  .cardMujeres img:hover, .cardNiñas img:hover {
-    transform: scale(1.2); }
-  .cardMujeres div button {
-    width: 70px;
-    height: 25px;
-    background: #fcf1f1;
-    border: none;
-    color: rgba(19, 18, 18, 0.736);
-    margin-top: 10px;
-    font-size: 10px; }
-  .cardNiñas div button {
-    width: 70px;
-    height: 25px;
-    background: #fcf1f1;
-    border: none;
-    color: rgba(19, 18, 18, 0.736);
-    margin-top: 10px;
-    font-size: 10px; }
-  .cardNiñas img {
-    width: 200px;
-    height: 200px;
-    cursor: pointer; }
-    .cardNiñas img:hover {
-      transform: scale(1.2); }
-  .cardNiñas div button {
-    width: 70px;
-    height: 25px;
-    background: #fcf1f1;
-    border: none;
-    color: rgba(19, 18, 18, 0.736);
-    margin-top: 10px;
-    font-size: 10px; }
-  h1 {
-    font-size: 25px; }
-  .footerContacto img, .footerRedesSociales img {
-    width: 15px;
-    height: 15px; }
-  .LogoFooter img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 0px; }
-  .footerRedesSociales img {
-    width: 15px;
-    height: 15px; }
-  .carousel-item img {
-    max-height: 500px;
-    width: 500px; }
-  form {
-    width: 350px;
-    margin: -7px;
-    background-color: #ebf1f6;
-    padding: 20px 20px;
-    box-sizing: border-box;
-    margin-top: 5px;
-    border-radius: 7px; } }
+footer {
+  grid-area: footer;
+  width: 100%;
+  background-color: #a88c8caf;
+  font-size: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: none; }
+
+.footerContacto, .footerRedesSociales {
+  margin: 15px; }
+
+.footerContacto ul li, .footerRedesSociales ul li {
+  list-style: none; }
+
+.footerContacto img, .footerRedesSociales img {
+  width: 22px;
+  height: 22px;
+  opacity: 0.6; }
+
+.LogoFooter img {
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+  margin-bottom: 10px; }
 
 @media (max-width: 576px) {
   .navBar {
@@ -468,4 +381,78 @@ h2, h5 {
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
+    border-radius: 7px; } }
+
+@media (max-width: 768px) {
+  .navBar {
+    width: 100%;
+    height: 50%;
+    padding: 40px;
+    display: grid;
+    font-size: 18px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    border-radius: 10%; }
+  .img {
+    width: 60px;
+    height: 60px; }
+  .cardMujeres img, .cardNiñas img {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    cursor: pointer; }
+  .cardMujeres img:hover, .cardNiñas img:hover {
+    transform: scale(1.2); }
+  .cardMujeres div button {
+    width: 70px;
+    height: 25px;
+    background: #fcf1f1;
+    border: none;
+    color: rgba(19, 18, 18, 0.736);
+    margin-top: 10px;
+    font-size: 10px; }
+  .cardNiñas div button {
+    width: 70px;
+    height: 25px;
+    background: #fcf1f1;
+    border: none;
+    color: rgba(19, 18, 18, 0.736);
+    margin-top: 10px;
+    font-size: 10px; }
+  .cardNiñas img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer; }
+    .cardNiñas img:hover {
+      transform: scale(1.2); }
+  .cardNiñas div button {
+    width: 70px;
+    height: 25px;
+    background: #fcf1f1;
+    border: none;
+    color: rgba(19, 18, 18, 0.736);
+    margin-top: 10px;
+    font-size: 10px; }
+  h1 {
+    font-size: 25px; }
+  .footerContacto img, .footerRedesSociales img {
+    width: 15px;
+    height: 15px; }
+  .LogoFooter img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0px; }
+  .footerRedesSociales img {
+    width: 15px;
+    height: 15px; }
+  .carousel-item img {
+    max-height: 500px;
+    width: 500px; }
+  form {
+    width: 350px;
+    margin: -7px;
+    background-color: #ebf1f6;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
     border-radius: 7px; } }

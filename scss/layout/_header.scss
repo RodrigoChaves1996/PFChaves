@@ -1,0 +1,75 @@
+.header img {
+    width: 150px;
+    height: 150px;
+    margin: top 20px;
+    margin-bottom: 5px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.navBar {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        font-size: 20px;
+        font-family: monospace;
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+        padding: 0px;
+    }
+    }
+
+.container-fluid {
+    text-decoration-color: #ffffff;
+    color: #eff3f7;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 20px;
+    font-family: monospace;
+    list-style: none;
+    margin-bottom: 0;
+    background-color: #8b7e7eaf;
+    text-decoration: #852f24;
+    border: #ffffff;
+    margin: none;
+    margin-top: -10px;
+    margin-bottom: -9px;
+    background-image: url("../images/FondoNegro.jpg");
+    background-repeat: no-repeat;
+    color: rgb(226, 233, 240);
+}
+
+.BoxLogo {
+    display: inline-block;
+}
+
+.BoxLista {
+    display: inline-block;
+    width: 86%;
+}
+
+
+.fotologo {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    width: 100px;
+}
+
+.logologo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: aliceblue;
+}

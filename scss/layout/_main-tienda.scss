@@ -1,0 +1,72 @@
+h2, h5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-group {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-text {
+    color: #030608;
+}
+
+.productosMujeres, .productosNiñas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: none;
+}
+
+.productosMujeres p, .productosNiñas p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+.cardMujeres div, .cardNiñas div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cardMujeres img, .cardNiñas img {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cardMujeres img:hover, .cardNiñas img:hover {
+    transform: scale(1.2);
+}
+
+.productosNiñas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardMujeres div button, .cardNiñas div button {
+    width: 90px;
+    height: 35px;
+    background: rgb(252, 241, 241);
+    border: none;
+    color: rgba(19, 18, 18, 0.736);
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.cardMujeres div button:hover, .cardNiñas div button:hover {
+    transform: translate(2px, 2px);
+}
